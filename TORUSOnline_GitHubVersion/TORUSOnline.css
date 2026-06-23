@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #196ae36f 0%, #051630 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 100%;
+    margin: 0px;
+}
+
+.TopBar {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background-color: #DB073D;
+    width: 100%;
+    border-bottom: white solid 7px;
+    text-align: center;
+}
+
+.TopButtons {
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.pageTitleBackground {
+    margin-top: -5px;
+    align-self: center;
+    background-color: #051630;
+    height: 15%;
+}
+
+.pageTitle {
+    font-family: "Orbitron", Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    background: linear-gradient(270deg, #CC0000, #1357BE);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-left: white solid 7px;
+    border-right: white solid 7px;
+}
+
+.welcome {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+    background-color: #051630;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: #FFFFFF solid 7px;
+    border-left: #FFFFFF solid 7px;
+    border-right: #FFFFFF solid 7px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+.Paragraph {
+    margin: 20px auto;
+    background-color: #051630;
+    align-items: center;
+    padding: 5px;
+    width: 75%;
+    border: #FFFFFF solid 7px;
+    border-radius: 0px;
+}
+
+.ParagraphText {
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.logo {
+    margin: 0px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
