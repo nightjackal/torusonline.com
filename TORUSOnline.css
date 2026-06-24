@@ -9,21 +9,36 @@ body {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+a:link {
+    color: #00589D;
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    color: red;
+}
+
 .TopBar {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 5px;
-    padding-top: 0px;
-    padding-bottom: 15px;
+    padding: 10px 0px 25px 0px;
     background-color: #DB073D;
     width: 100%;
     border-bottom: white solid 7px;
     text-align: left;
+    position: relative;
 }
 
 .CompilerButton {
     align-items: center;
+    vertical-align: middle;
     background-color: white;
     text-align: center;
     padding: 5px 10px 5px 10px;
@@ -41,6 +56,12 @@ body {
     cursor: pointer;
 }
 
+a.PageButtonLink {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none !important;
+}
+
 .TopButtons {
     background-color: white;
     padding: 5px 10px 5px 10px;
@@ -48,6 +69,28 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     border: #051630 solid 3px;
+    text-decoration: none !important;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pageName {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.shrunkImage2 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    cursor: crosshair;
+    margin-left: 5px;
+    transform: translate(0%, 20%);
 }
 
 .pageTitleBackground {
