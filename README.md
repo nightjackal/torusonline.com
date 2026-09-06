@@ -1,2 +1,2 @@
 # NightJackal.github.io
-My Website for my custom programming language and its compiler
+Currently under development, will be back soon enough!
